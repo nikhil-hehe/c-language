@@ -1,3 +1,4 @@
+//AB 
 /*#include <stdio.h>
 
 int main()
@@ -18,7 +19,7 @@ int main()
 	return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main()
 {   int i,j;
@@ -30,4 +31,4 @@ int main()
         printf("\n");
     }
     return 0;
-}
+}*/
