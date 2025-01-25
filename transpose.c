@@ -15,9 +15,9 @@ int main(){
 
 
 	printf("\nTranspose\n");
-	for (i=0;i<rows;i++){
-		for (j=0;j<columns;j++){
-			printf("%d ",b[i][j]);
+	for (j=0;j<columns;j++){
+		for (i=0;i<rows;i++){
+			printf("%d ",b[j][i]);
 		}
 		printf("\n");
 	}
