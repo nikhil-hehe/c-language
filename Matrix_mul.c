@@ -28,7 +28,7 @@ int main(){
 		for (i=0;i<arows;i++){
 			for (j=0;j<bcolumns;j++){
 				for (k=0;k<brows;k++){
-					c[i][j]+=a[i][k]*b[k][j];
+					c[i][j]=c[i][j]+a[i][k]*b[k][j];
 				}
 			}
 		}
